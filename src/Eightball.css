@@ -1,0 +1,60 @@
+.green {
+  border-radius: 50%;
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.green:first-child {
+  margin: auto;
+  color: black;
+  font-size: 1.4rem;
+}
+
+.goldenrod {
+  border-radius: 50%;
+  background-color: goldenrod;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goldenrod:first-child {
+  margin: auto;
+  color: black;
+  font-size: 1.4rem;
+}
+
+.red {
+  border-radius: 50%;
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.red:first-child {
+  font-size: 1.4rem;
+  margin: 0 auto;
+  color: black;
+}
+
+.black {
+  border-radius: 50%;
+  background-color: black;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.black:first-child {
+  font-size: 1.4rem;
+  margin: 0 auto;
+  color: white;
+}
