@@ -9,12 +9,11 @@ const Boxes = ({ num_boxes, colors }) => {
 
   let allBoxes = [];
   for (let i = 0; i < num_boxes; i++) {
-    allBoxes.push(<Box key={i} color={randomColor(colors)} />);
+    allBoxes.push(<Box id={`box-${i}`} key={i} color={randomColor(colors)} />);
   }
   const changeColor = () => {
     // select box at random from the list of boxes
     const pick = allBoxes[Math.floor(Math.random() * allBoxes.length)];
-    const other = allBoxes[Math.floor(Math.random() * allBoxes.length)];
     const box = document.querySelector(`.${pick.props.color}`);
     box.className = randomColor(colors);
   };

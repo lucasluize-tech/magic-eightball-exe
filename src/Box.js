@@ -1,11 +1,11 @@
 import React from "react";
 import "./Box.css";
-const Box = ({ key, color }) => {
+const Box = ({ id, color }) => {
   return (
     <div
       style={{ height: "30px", width: "30px" }}
       className={color}
-      id={key}></div>
+      id={id}></div>
   );
 };
 
